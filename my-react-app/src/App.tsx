@@ -1,9 +1,6 @@
+import { AppRoutes } from "./routes/routes"
 
 export const App = () => {
-  return (
-    <>
-      <h1>Vite + React</h1>
-    </>
-  )
+  return <AppRoutes/>
 }
 
