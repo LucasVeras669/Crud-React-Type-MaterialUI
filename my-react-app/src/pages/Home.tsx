@@ -5,7 +5,7 @@ export const Home = () => {
     return (
       <>
         <h1>Olá Mundo</h1>
-        <Button>Ola Mundo</Button>
+        <Button variant="contained" color="primary">Ola Mundo</Button>
       </>
     )
   }
