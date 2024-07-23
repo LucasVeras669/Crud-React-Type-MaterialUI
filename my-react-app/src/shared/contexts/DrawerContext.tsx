@@ -19,7 +19,8 @@ export const DrawerProvider: React.FC<IDrawerContextData> = ({ children }) => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   const toggleDrawerOpen = useCallback(() => {
-    setIsDrawerOpen(oldDrawerOpen=> !oldDrawerOpen)
+    setIsDrawerOpen(oldDrawerOpen => !oldDrawerOpen)
+  
   }, []);
  
   
